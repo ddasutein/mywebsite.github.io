@@ -1,0 +1,64 @@
+.logo {
+	float: left;
+
+}
+
+.mainphoto {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 10%;
+	height: auto;
+	top: 0;
+	left: 0;
+	margin: auto;
+	padding: auto;
+	filter: brightness(90%);
+	display: block;
+}
+
+.nav {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 3px 3px 3px 3px;
+	margin: 0 0 0 0;
+	width: auto;
+
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 10px 10px 0;
+	font-size: 12;
+
+}
+
+.nav > li > a {
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+	color: black;
+}
+
+.nav a:hover {
+	background-color: #252526;
+}
+
+.nav a:hover {
+	color: white;
+}
+
+.p1 {
+	font-size: 14px;
+	text-align: left;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 10%;
+	height: auto;
+	top: 0;
+	left: 0;
+	margin: auto;
+	padding: auto;
+	filter: brightness(90%);
+	display: block;
+}
