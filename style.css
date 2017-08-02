@@ -1,5 +1,5 @@
 html,body {
-    margin:0;
+	margin: 0;
     padding:0;
 }
 
@@ -7,6 +7,7 @@ body {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;	
 	position: absolute;
+
 }
 
 .logo {
@@ -15,16 +16,10 @@ body {
 }
 
 .mainphoto {
-	min-height: 100%;
-	min-width: 1024px;
-	width: 10%;
-	height: auto;
+	width: 100%;
 	top: 0;
-	left: 0;
-	margin: auto;
-	padding: auto;
+	margin: 48px 0px 0px 0px;
 	filter: brightness(90%);
-	display: block;
 
 }
 
@@ -40,8 +35,17 @@ body {
 	top: 0;
 	z-index: 100;
 	position: fixed;
-
+	opacity: 0.9;
 }
+
+@media screen and (max-width: 600px) {
+ 	 .nav a:not(:first-child) {display: none;}
+ 	 .nav a.icon {
+   	 float: right;
+   	 display: block;
+  }
+}
+
 
 .nav > li {
 	display: inline-block;
@@ -64,10 +68,13 @@ body {
 	color: white;
 }
 
+.nav li a {
+
+}
 .p1 {
 	text-align: left;
 	min-height: 100%;
-	min-width: 1024px;
+	min-width: 75%;
 	width: 10%;
 	height: auto;
 	top: 0;
